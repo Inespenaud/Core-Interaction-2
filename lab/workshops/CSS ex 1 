@@ -1,0 +1,26 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title> My CSS Work </title>
+  <style>
+      .container 
+      {
+          background-color :green;
+    margin : 10px;
+font-family:sans-serif
+}
+container--blue {
+    background-color: blue;
+}
+</style>
+</head>
+<body>
+    <div class="container">Content</div> 
+    <div class="container container--blue">Content</div> 
+
+</body>
+
+
+    
