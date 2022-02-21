@@ -189,6 +189,23 @@ p{
   padding:2rem;
 }
 
+		body {
+			font: 13px/1.5 arial, helvetica, sans-serif;
+		}
+		article {
+			width: 500px;
+		}
+		.pquote {
+			float: 0;
+			width: 100px;
+			font-weight: bold;
+			font-size: 30px;
+			padding: 13px;
+			margin: 0 13px 13px 0;
+		}
+		blockquote {
+			margin: 0;
+		}
 
 /*
  * Remove text-shadow in selection highlight:
