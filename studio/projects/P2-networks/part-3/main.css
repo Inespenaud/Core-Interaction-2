@@ -60,10 +60,11 @@ main {
 
 .intro-block {
   display:grid;
-  grid-template-columns: repeat(5, 1fr);  
+  text-align: center;
+  grid-template-columns: repeat(0, 1fr);  
   grid-auto-rows:min-content;
-  grid-gap:2rem;
-  padding-bottom:2rem;
+  grid-gap:1rem;
+  padding-bottom:1rem;
   border-bottom:1px solid #dadada;
 }
 
