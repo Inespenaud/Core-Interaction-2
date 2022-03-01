@@ -182,6 +182,7 @@ p {
 
 .pull-quote {
   font-size: 2.25rem;
+  text-shadow: 4px 4px 4px #df7d96;
   font-family: "Lora", serif;
   font-style: italic;
   font-weight: 400;
