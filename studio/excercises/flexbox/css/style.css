@@ -1,0 +1,55 @@
+.week {
+  display: -webkit-box;
+  display: flex;
+}
+
+.header {
+    display: -webkit-box;
+    display: flex;
+  }
+
+.day {
+  -webkit-box-flex: 1;
+          flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+ 
+.week:first-of-type .day:first-of-type {
+  margin-left: 42.85714%;
+}
+ 
+.week:last-of-type .day:last-of-type {
+  margin-right: 28.57%;
+}
+ 
+/* OTHER STYLES */
+html, body {
+  height: 100%;
+}
+ 
+body {
+  background-color: #df7d96;
+  background-attachment: fixed;
+}
+
+.header {
+    max-width: 560px;
+    
+  }
+
+.month {
+  max-width: 560px;
+  margin: 20px auto;
+}
+ 
+.week {
+  height: 100px;
+}
+ 
+.day {
+  color: #df7d96;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 255);
+  box-shadow: -1px -1px #df7d96,  inset -1px -1px 0 0 #df7d96;
+}
