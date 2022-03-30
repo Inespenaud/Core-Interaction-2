@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  background: #df7d96;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10%;
+}
+.boat_div {
+  padding-right: 5%;
+  border-radius: 3px;
+  border-right: 5px solid grey;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  width: 600px;
+}
+.boat_div img {
+  max-width: 100%;
+  height: 46vh;
+  border-radius: 20px;
+  display: block;
+  width: 100%;
+  height: auto;
+  transform: scale(1);
+}
+.boat_div:hover img {
+  transform: scale(1.1);
+  border-radius: 20px;
+}
+.poem_div {
+  padding-left: 5%;
+  border-radius: 3px;
+  border-left: 5px solid grey;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  width: 600px;
+}
+.poem_div img {
+  max-width: 100%;
+  /* height: 46vh; */
+  border-radius: 20px;
+  transition: all 0.3s;
+  display: block;
+  width: 100%;
+  height: auto;
+  transform: scale(1);
+}
+
+.poem_div:hover img {
+  transform: scale(1.1);
+  border-radius: 20px;
+}
+
+/* --------------------------------------------
+.image-box {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  width: 540px;
+}
+.image-box img {
+  max-width: 100%;
+  transition: all 0.3s;
+  display: block;
+  width: 100%;
+  height: auto;
+  transform: scale(1);
+} */
+
+/* ------------------- */
+
+.media_div {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  margin-bottom: 100px;
+}
+
+.video {
+  width: 540px;
+  height: 380px;
+  border: 2px solid gray;
+  border-radius: 20px;
+  background-color: gray;
+}
+.audio {
+  /* border: 2px solid gold; */
+  border-radius: 25px;
+  background-image: url(./media/image/42.png);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  width: 540px;
+  height: 380px;
+}
