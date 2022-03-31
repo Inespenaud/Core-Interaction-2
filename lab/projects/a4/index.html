@@ -2,21 +2,31 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Ines Penaud | A2:Garden</title>
+    <title>Ines Penaud | A4:Garden of forking paths</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>HTML CSS</title>
   </head>
   <body>
+    <button type="button" onclick="myFunction()">Set background Pink</button>
+    <button type="button" onclick="mainColor()">Set background Pinker</button>
+  </p>
+    <button type="button" onclick="mainImage()">Left block zoom</button>
+    <button type="button" onclick="mainImag()">Right block zoom</button>
+
     <div class="header"></div>
     <container>
       <div class="content">
-        <div class="boat_div">
-          <img src="./media/image/camera.jpg" alt="boat" />
+        <div class="boat_div" id="image_1">
+          <button type="button" onclick="mainImage()"><img id="img1" src="./media/image/camera.jpg" alt="boat" /></button>
+          
         </div>
-        <div class="poem_div">
-          <img src="./media/image/IMG_417.jpg" alt="" />
+        <div class="poem_div" id="image_2">
+
+          <button type="button" onclick="mainImag()"><img id="img2" src="./media/image/IMG_417.jpg" alt="" /></button>
+
+          
         </div>
       </div>
 
@@ -34,5 +44,37 @@
         </audio>
       </div>
     </container>
+
+    <script>
+      function myFunction() {
+        document.body.style.backgroundColor = "pink";
+      }
+      function mainColor() {
+        document.body.style.backgroundColor = " #df7d96";
+      }
+
+      const img1 = document.getElementById("img1");
+      function mainImage() {
+        img1.animate(
+          {
+            // height: "500px",
+            width: "90px",
+            margintop: "80px",
+          },
+          3000
+        );
+      }
+      const img2 = document.getElementById("img2");
+      function mainImag() {
+        img2.animate(
+          {
+            // height: "500px",
+            width: "90px",
+            margintop: "80px",
+          },
+          3000
+        );
+      }
+    </script>
   </body>
 </html>
