@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
+
+
+body {
+    font-family: 'Fraunces', sans-serif;
+    margin: 0px;
+}
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: auto auto;
+}
+.link_box{
+    text-decoration: none;
+    background: #F03F88;
+}
+.main_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Vibrant, .Psychedelic, .Ghibli, .Dali, .No_Style, .All_Styles{
+    font-size: 70px;
+    text-transform: uppercase;
+}
+.Vibrant{
+    color: #DFC2DA;
+}
+.Psychedelic{
+    color: #EDC3C4;
+}
+.Ghibli{
+    color: #897480;
+}
+.Dali{
+    color: #805F15;
+}
+.No_Style{
+    color: #C63A3E;
+}
+.All_Styles{
+    color: #fff;
+}
+
+.vibrant_bg{
+    background-color: #F03F88;
+}
+.container.vibrant_bg{
+    display: block;
+    width: 100%;
+    height: auto;
+    grid-template-columns: unset;
+    /* max-width: 1440px;
+    margin: 0 auto; */
+}
+.vibrant_gallery_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vibrant_gallery_inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.vibrant_gallery_inner span{
+    width: 300px;
+    height: 500px;
+    margin: 0 20px;
+    padding-bottom: 30px;
+}
+.vibrant_gallery_inner img{
+    width: 100%;
+    height: 100%;
+}
+
+.psychedelic_bg{
+    background-color: #9C206B;
+}
+.container.psychedelic_bg{
+    display: block;
+    width: 100%;
+    height: auto;
+    grid-template-columns: unset;
+    /* max-width: 1440px;
+    margin: 0 auto; */
+}
+.psychedelic_gallery_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.psychedelic_gallery_inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.psychedelic_gallery_inner span{
+    width: 300px;
+    height: 500px;
+    margin: 0 20px;
+    padding-bottom: 30px;
+}
+.psychedelic_gallery_inner img{
+    width: 100%;
+    height: 100%;
+}
+
+.ghibli_bg{
+    background-color: #3D5E8B;
+}
+.container.ghibli_bg{
+    display: block;
+    width: 100%;
+    height: auto;
+    grid-template-columns: unset;
+    /* max-width: 1440px;
+    margin: 0 auto; */
+}
+.ghibli_gallery_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ghibli_gallery_inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.ghibli_gallery_inner span{
+    width: 300px;
+    height: 500px;
+    margin: 0 20px;
+    padding-bottom: 30px;
+}
+.ghibli_gallery_inner img{
+    width: 100%;
+    height: 100%;
+}
