@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
+
+
+body {
+    font-family: 'Fraunces', sans-serif;
+    margin: 0px;
+}
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: auto auto;
+}
+.link_box{
+    text-decoration: none;
+    background: #F03F88;
+}
+.link_box_psy{
+    text-decoration: none;
+    background: #9C206B;
+}
+.link_box_ghi{
+    text-decoration: none;
+    background: #3D5E8B;
+}
+.link_box_dal{
+    text-decoration: none;
+    background: #000;
+}
+.link_box_nos{
+    text-decoration: none;
+    background: #A7897B;
+}
+.link_box_all{
+    text-decoration: none;
+    background: linear-gradient(to left, #F03F88 50%, #9C206B 50% );
+}
+.main_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Vibrant, .Psychedelic, .Ghibli, .Dali, .No_Style, .All_Styles{
+    font-size: 70px;
+    text-transform: uppercase;
+}
+.Vibrant{
+    color: #DFC2DA;
+}
+.Psychedelic{
+    color: #EDC3C4;
+}
+.Ghibli{
+    color: #897480;
+}
+.Dali{
+    color: #805F15;
+}
+.No_Style{
+    color: #C63A3E;
+}
+.All_Styles{
+    color: #fff;
+}
+
+.vibrant_bg{
+    background-color: #F03F88;
+}
+.container.vibrant_bg{
+    display: block;
+    width: 100%;
+    height: auto;
+    grid-template-columns: unset;
+    /* max-width: 1440px;
+    margin: 0 auto; */
+}
+.vibrant_gallery_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vibrant_gallery_inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.vibrant_gallery_inner .image-container{
+    width: 300px;
+    height: 500px;
+    margin: 0 20px;
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+.vibrant_gallery_inner img{
+    width: 100%;
+    height: 100%;
+}
+
+.psychedelic_bg{
+    background-color: #9C206B;
+}
+.container.psychedelic_bg{
+    display: block;
+    width: 100%;
+    height: auto;
+    grid-template-columns: unset;
+    /* max-width: 1440px;
+    margin: 0 auto; */
+}
+.psychedelic_gallery_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.psychedelic_gallery_inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.psychedelic_gallery_inner .image-container {
+    position: relative;
+    width: 300px;
+    height: 500px;
+    margin: 0 20px;
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+.psychedelic_gallery_inner .image-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.ghibli_bg{
+    background-color: #3D5E8B;
+}
+.container.ghibli_bg{
+    display: block;
+    width: 100%;
+    height: auto;
+    grid-template-columns: unset;
+    /* max-width: 1440px;
+    margin: 0 auto; */
+}
+.ghibli_gallery_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ghibli_gallery_inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.ghibli_gallery_inner .image-container{
+    width: 300px;
+    height: 500px;
+    margin: 0 20px;
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+.ghibli_gallery_inner img{
+    width: 100%;
+    height: 100%;
+}
+
+.dali_bg{
+    background-color: #000;
+}
+.container.dali_bg{
+    display: block;
+    width: 100%;
+    height: auto;
+    grid-template-columns: unset;
+    /* max-width: 1440px;
+    margin: 0 auto; */
+}
+.dali_gallery_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dali_gallery_inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.dali_gallery_inner .image-container{
+    width: 300px;
+    height: 500px;
+    margin: 0 20px;
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+.dali_gallery_inner img{
+    width: 100%;
+    height: 100%;
+}
+
+.no_style_bg{
+    background-color: #000;
+}
+.container.no_style_bg{
+    display: block;
+    width: 100%;
+    height: auto;
+    grid-template-columns: unset;
+    /* max-width: 1440px;
+    margin: 0 auto; */
+}
+.no_style_gallery_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.no_style_gallery_inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.no_style_gallery_inner .image-container{
+    width: 300px;
+    height: 500px;
+    margin: 0 20px;
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+.no_style_gallery_inner img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* popup */
+
+.popup-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.popup-container > .popup-inner {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 75px;
+    background-color: #F03F88;
+}
+
+.popup-container > .popup-inner > i {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.popup-container > .popup-inner > img {
+    width: 300px;
+    height: 500px;
+}
+
+.popup-container > .popup-inner > .side {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 300px;
+    text-align: center;
+    margin-left: 35px;
+    color: white;
+}
+
+.popup-container > .popup-inner > .side > .description {
+    color: #c1c1c1;
+    margin-bottom: 15px;
+}
