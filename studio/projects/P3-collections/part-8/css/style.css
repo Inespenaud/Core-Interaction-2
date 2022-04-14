@@ -14,6 +14,26 @@ body {
     text-decoration: none;
     background: #F03F88;
 }
+.link_box_psy{
+    text-decoration: none;
+    background: #9C206B;
+}
+.link_box_ghi{
+    text-decoration: none;
+    background: #3D5E8B;
+}
+.link_box_dal{
+    text-decoration: none;
+    background: #000;
+}
+.link_box_nos{
+    text-decoration: none;
+    background: #A7897B;
+}
+.link_box_all{
+    text-decoration: none;
+    background: linear-gradient(to left, #F03F88 50%, #9C206B 50% );
+}
 .main_box{
     display: flex;
     justify-content: center;
@@ -137,6 +157,39 @@ body {
     padding-bottom: 30px;
 }
 .ghibli_gallery_inner img{
+    width: 100%;
+    height: 100%;
+}
+
+.dali_bg{
+    background-color: #000;
+}
+.container.dali_bg{
+    display: block;
+    width: 100%;
+    height: auto;
+    grid-template-columns: unset;
+    /* max-width: 1440px;
+    margin: 0 auto; */
+}
+.dali_gallery_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dali_gallery_inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.dali_gallery_inner span{
+    width: 300px;
+    height: 500px;
+    margin: 0 20px;
+    padding-bottom: 30px;
+}
+.dali_gallery_inner img{
     width: 100%;
     height: 100%;
 }
