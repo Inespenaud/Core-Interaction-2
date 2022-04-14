@@ -18,7 +18,7 @@ html {
   font-size: 1em;
   line-height: 1.4;
   padding:1.5rem;
-  background-color:#df7d96;
+  background-color:#6C5044;
 }
 
 ul {
@@ -183,7 +183,7 @@ p{
 
 .pull-quote {
   font-size: 2.25rem;
-  text-shadow: 4px 4px 4px #df7d96;
+  text-shadow: 4px 4px 4px #6C5044;
   font-family: 'Lora', serif;
   font-style: italic;
   font-weight:800;  
