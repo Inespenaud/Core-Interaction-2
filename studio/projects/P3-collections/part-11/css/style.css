@@ -234,7 +234,7 @@ body {
 }
 
 .all-styles_bg{
-    background-color: white;
+    background-color: grey;
 }
 .container.all-styles_bg{
     display: block;
