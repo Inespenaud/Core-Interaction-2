@@ -1,0 +1,143 @@
+* {
+  margin: 5;
+  padding: 1;
+  font-family: Verdana, Georgia, "Times New Roman", Times, serif;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  background: white;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* Typography */
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lora', serif;
+  font-weight:500;
+  margin:0;
+  padding:0;
+}
+
+h1 {
+  font-size:3.157rem;
+  margin-bottom:1.25rem;
+  text-align: center;
+}
+
+h2 {
+  font-size:2.369rem;
+  margin-bottom:1.25rem;
+  text-align: center;
+}
+
+h3 {
+  font-size:1.777rem;
+  margin-bottom:1rem;
+}
+
+h4 {
+  font-size:1.333rem;
+  margin-bottom:1rem;
+}
+
+h5 {
+  font-size:1;
+  margin-bottom:.5rem;
+}
+
+
+p{
+  font-family: 'Merriweather', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding:0;
+  margin:0;
+  margin-bottom:1rem;
+  color:var(--body-text-color);
+}
+
+.pull-quote {
+  font-size: 2.25rem;
+  text-shadow: 4px 4px 4px #d9d0cc;
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-weight:400;  
+  line-height: 1.5;
+  padding:2rem;
+}
+
+		body {
+			font: 13px/1.5 arial, helvetica, sans-serif;
+		}
+		article {
+			width: 500px;
+		}
+		.pquote {
+			float: 50;
+			width: 100px;
+			font-weight: bold;
+			font-size: 300px;
+			padding: 13px;
+			margin: 0 13px 13px 0;
+		}
+		blockquote {
+			margin: 0;
+		}
+
+/* --------------------------------------------
+.image-box {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  width: 540px;
+}
+.image-box img {
+  max-width: 100%;
+  transition: all 0.3s;
+  display: block;
+  width: 100%;
+  height: auto;
+  transform: scale(1);
+} */
+
+/* ------------------- */
+
+.media_div {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  margin-bottom: 100px;
+}
+
+.video {
+  width: 540px;
+  height: 380px;
+  border: 2px solid gray;
+  border-radius: 20px;
+  background-color: gray;
+}
+.audio {
+  /* border: 2px solid gold; */
+  border-radius: 25px;
+  background-image: url(./media/image/42.png);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  width: 540px;
+  height: 380px;
+}
