@@ -7,16 +7,21 @@
         <title>HTML CSS</title>
     </head>
     <body>
-            <h1> LIST </h1>
-        
-        <hr>
-       
-        </hr>
-
-        <h2>LETS LEARN THE ALPHABET TOGETHEER</h2>
-        <h2>TYPE IN A SINGLE LETTER</h2>
-        <img src="images/kids.jpeg" class="center">
-        <h2> </h2>
-         
+        <h3>LETS LEARN THE ALPHABET TOGETHER</h3>
+        <h3>TYPE IN A SINGLE LETTER</h3>
+        <input type="text" name="letter" onkeyup="play(this.value)" id="letter">
+        <img id="img" src="images/kids.jpeg" class="center">
     </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js"></script>
+    <script>
+        var images = {a: "apple", b: "boat", c: "cat", d: "duck", e: "egg", f: "fox", g: "giraffe", h: "hippo", i: "icecream", j: "juice", k: "koala", l: "lion", m: "monkey", n: "ninja", o: "orange", p: "panda", q: "queen", r: "rose", s: "snake", t: "turtle", u: "umbrella", v: "violin", w: "whale", x: "xylophone", y: "yoyo", z: "zebra"}
+        function play(str) {
+            if (str != ""){
+                var audio = new Audio('audio/' + str + '.wav');
+                audio.play();
+                document.getElementById('img').src = "images/" + images[str] + ".jpeg"
+                document.getElementById('letter').value = "";
+            }
+        }
+    </script>
 </html>
