@@ -1,3 +1,5 @@
+const popup = document.querySelector('.popup')
+
 function showKeyCode(e) {
     var letter = e.keyCode;
  
@@ -8,3 +10,13 @@ function showKeyCode(e) {
       document.getElementById("TextBox1").value = "";
     }
   }
+
+function showPopup() {
+  popup.style.display = 'flex'
+  popup.className = 'popup active'
+}
+
+function hidePopup() {
+  popup.style.display = 'none'
+  popup.className = 'popup'
+}

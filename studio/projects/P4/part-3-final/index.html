@@ -8,12 +8,22 @@
         <title>Ines Penaud | P2 Part 1</title>
         <link rel="stylesheet" href="style.css" />
         <title>HTML CSS</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
-    <body>
+    <body onload="showPopup()">
         <h1>LETS LEARN THE ALPHABET TOGETHER</h1>
         <h2>TYPE IN A SINGLE LETTER</h2>
         <input type="text" name="letter" onkeyup="play(this.value)" id="letter">
         <img id="img" src="images/kids.jpeg" class="center">
+
+        <div class="popup">
+            <div class="img-container">
+                <img src="images/AboutAlphabet.jpeg" alt="" srcset="">
+                <i class="fa-solid fa-xmark" onclick="hidePopup()"></i>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
     </body>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js"></script>
     <script>
